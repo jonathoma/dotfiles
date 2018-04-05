@@ -1,0 +1,20 @@
+alias cp='cp -iv'                           # Preferred 'cp' implementation
+alias mv='mv -iv'                           # Preferred 'mv' implementation
+alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
+alias lt='colorls -d --tree'                         # Preferred 'ls' implementation
+alias ls='colorls --sd'
+alias less='less -FSRXc'                    # Preferred 'less' implementation
+alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
+alias ..='cd ../'                           # Go back 1 directory level
+alias ...='cd ../../'                       # Go back 2 directory levels
+alias edit='subl'                           # edit:         Opens any file in sublime editor
+alias f='open -a Finder ./'                 # f:            Opens current directory in MacOS Finder
+alias ~="cd ~"                              # ~:            Go Home
+alias c='clear'                             # c:            Clear terminal display
+alias path='echo -e ${PATH//:/\\n}'         # path:         Echo all executable Paths
+alias show_options='shopt'                  # Show_options: display bash options settings
+alias cic='set completion-ignore-case On'   # cic:          Make tab-completion case-insensitive
+
+# List all files colorized in long format
+alias ll='colorls -la --gs'
+
