@@ -8,7 +8,7 @@ export ZSH=/Users/jonathanthomas/.oh-my-zsh
 ZSH_THEME=""
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -16,9 +16,6 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git,
-  zsh-autosuggestions,
-  hacker-quotes,
-  warhol
 )
 
 # User configuration
@@ -47,7 +44,7 @@ for file in ~/.{path,aliases,exports,functions,extra}; do
 done
 unset file
 
+bindkey -v
+
 # Shell integration
 # test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-alias config='/usr/bin/git --git-dir=/Users/jonathanthomas/.cfg/ --work-tree=/Users/jonathanthomas'
