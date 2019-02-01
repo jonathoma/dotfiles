@@ -20,4 +20,9 @@ alias ll='colorls -la --gs'
 alias la='colorls -la --gs'
 
 alias config='/usr/bin/git --git-dir=/Users/jonathanthomas/.cfg/ --work-tree=/Users/jonathanthomas'
+alias g='git'
 
+# Chrome aliases
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+# alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
+# alias chromium="/Applications/Chromium.app/Contents/MacOS/Chromium"
